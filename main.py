@@ -3,7 +3,7 @@ import os
 from random import randint
 #links: https://maples.im/#
 #setup / size / title
-pygame.init()
+#pygame.init()
 
 x_pixels = 1000
 y_pixels = 500
@@ -41,9 +41,9 @@ index_mob = 0
 
 class player(object):
     lvl = "level" + str(1)
-    movement = [pygame.image.load('level1\swingO1_0.png'),pygame.image.load('level1\swingO1_1.png'),pygame.image.load('level1\swingO1_2.png'),pygame.image.load('level1\swingO1_3.png'),
-                pygame.image.load('level1\swingO2_0.png'),pygame.image.load('level1\swingO2_1.png'),pygame.image.load('level1\swingO2_2.png'),pygame.image.load('level1\swingO2_3.png'),
-                pygame.image.load('level1\swingO3_0.png'),pygame.image.load('level1\swingO3_1.png'),pygame.image.load('level1\swingO3_2.png'),pygame.image.load('level1\swingO3_3.png')]
+    movement = [pygame.image.load('eqp\level1\swingO1_0.png'),pygame.image.load('eqp\level1\swingO1_1.png'),pygame.image.load('eqp\level1\swingO1_2.png'),pygame.image.load('eqp\level1\swingO1_3.png'),
+                pygame.image.load('eqp\level1\swingO2_0.png'),pygame.image.load('eqp\level1\swingO2_1.png'),pygame.image.load('eqp\level1\swingO2_2.png'),pygame.image.load('eqp\level1\swingO2_3.png'),
+                pygame.image.load('eqp\level1\swingO3_0.png'),pygame.image.load('eqp\level1\swingO3_1.png'),pygame.image.load('eqp\level1\swingO3_2.png'),pygame.image.load('eqp\level1\swingO3_3.png')]
 
     def __init__(self, hp, mp, exp, level, dmg):
         self.hp = hp
@@ -65,7 +65,7 @@ class star(object):
         self.lvl = lvl
         self.multi = 1 + (0.5*lvl*lvl)
         self.rotation = 0
-        self.star = pygame.image.load('star1\\' + 'Subi_0.png')
+        self.star = pygame.image.load('star\star' + str(0)+'.png')
         self.x = start_star_x
 
 
@@ -202,3 +202,4 @@ while run:
 
 
 #testblock
+print(`klaar`)
