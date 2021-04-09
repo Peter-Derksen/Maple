@@ -1,0 +1,67 @@
+Project
+
+Upgrades (via buttons):
+	max stars
+	star speed
+	star look (dmg)
+	gear look (dmg) or exp
+	mob upgrade (more hp and exp mesos)
+
+ability (via buttons):
+	haste(5sec) double speed?
+	shadowpartner (double dmg/ 2 stars)
+	??? (speciale ster star lim *5 and speed *2) use starS 
+	resize star (pygame.transform.scale(picture, (1280, 720)) final move? trows 5 big stars x-times dmg
+
+class mesos:
+	bag>5000mesos? or bills
+	collect with z (create ground[] if mob.hp< 0 => ground.append(mob.mesos)
+
+upgrades locked behind mesos??
+
+
+exp system:
+	upgrade looks
+	stats:
+		+exp %
+		+dmg %
+		+mesos %
+		+accuracy % (start ??? ) randint(a,b)   a,b = x -+ accuracy*x 
+
+mesos/hp/exp rates:
+	linear?
+	formula?
+	dependend
+
+killtime bonus:
+	timer each 5 seconds reset // extra mesos/exp // max multi 5?
+
+damage skin:
+	show dmg first
+	standard font
+	custom font importen?? maple dmg skin ???
+
+hp/exp/mesos bar:
+	implement inventory like something
+	3 bars bottom or top? 
+	gray rect first and on top a yellow/red rect (little smaller?)
+
+more mobs and gear:
+	https://maples.im/# find here
+	
+
+char: 
+	different combinations of gear / drops instead of upgrades
+	jumping?
+
+bosses:
+	timers
+	special drops (gear??)
+	big health bar
+	animation for failing (lay on ground and use face, see sprites)
+
+movement:
+	jumping char
+	flying mobs?
+	mobs walking towards player?
+
